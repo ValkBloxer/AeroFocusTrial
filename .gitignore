@@ -1,12 +1,43 @@
-# Flutter/Dart
-**/build/
-.dart_tool/
-.packages
-pubspec.lock
-.idea/
+# Gradle
 .gradle/
-android/.gradle/
-android/local.properties
-.flutter-plugins
-.flutter-plugins-dependencies
-.melos_tool/
+build/
+*/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.hprof
+.fleet/
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# NDK / Native build
+**/captures/
+.externalNativeBuild/
+.cxx/
+
+# OS / tooling noise
+*.log
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java build caches
+.kotlin/
+.gradle/
+
+# Generated test artifacts
+**/reports/
+**/test-results/
+
+# Misc
+*.swp
+*.swo
+/.idea/
+app/google-services.json
